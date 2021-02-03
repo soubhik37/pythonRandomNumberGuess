@@ -15,9 +15,8 @@ while not gameOver:
             guessNo = int(input(f"Please guess again : "))
         elif guessNo<winNo:
             print(f"Your guessing number is too low : You tried {guessTime}")
-            guessTime+=1
-            guessNo = int(input(f"Please guess again : "))
         else:
             print(f"Something wrong")
-            guessTime+=1
-            guessNo = int(input(f"Please guess again : "))
+        guessTime+=1
+        guessNo = int(input(f"Please guess again : "))
+        
